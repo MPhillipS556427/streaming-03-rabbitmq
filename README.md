@@ -168,6 +168,5 @@ Each of the version 2 programs include an error as well.
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
 - [RabbitMQ Get Started](https://www.rabbitmq.com/#getstarted)
 
-![Exploring the local virtual environment folder](./images/exploring_dot_venv.PNG)
 
 #### Updated on 08SEP23 by Malcolm Phillip
