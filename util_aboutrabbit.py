@@ -100,6 +100,20 @@ def is_rabbitmq_installed():
         logging.error(f"An unexpected error occurred: {e}")
         return False
 
+def start_rabbitmq_if_not_running():
+    """Start RabbitMQ if it's not running."""
+    if not is_rabbitmq_running():
+        logging.warning("RabbitMQ is NOT running. Attempting to start RabbitMQ...")
+
+        start_command = get_rabbitmq_start_command()
+        if start_command:
+            try:
+                subprocess.run(start_command, shell=True, check=True)
+                logging.info("RabbitMQ has been started successfully.")
+            except subprocess.CalledProcessError as e:
+                logging.error(f"Failed to start RabbitMQ. Error: {e}")
+        else:
+            logging.error("Platform not recognized. Unable to start RabbitMQ.")
 
 def is_rabbitmq_running():
     """Return True if RabbitMQ is running, False otherwise."""

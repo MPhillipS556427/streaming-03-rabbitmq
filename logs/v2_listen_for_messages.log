@@ -1,0 +1,8 @@
+2023-09-08 20:58:08,104.v2_listen_for_messages.INFO ==================================================
+2023-09-08 20:58:08,104.v2_listen_for_messages.INFO Today is 2023-09-08 at 08:58 PM
+2023-09-08 20:58:08,104.v2_listen_for_messages.INFO Running on: posix Darwin 22.4.0
+2023-09-08 20:58:08,104.v2_listen_for_messages.INFO Python version:  3.9.13
+2023-09-08 20:58:08,104.v2_listen_for_messages.INFO Python path: /Users/malcolmphillip/opt/anaconda3
+2023-09-08 20:58:08,104.v2_listen_for_messages.INFO Working dir: /Users/malcolmphillip/ds-venv/CSIS 44671-Streaming Data/44-671 Week 3/streaming-03-rabbitmq
+2023-09-08 20:58:08,104.v2_listen_for_messages.INFO ==================================================
+2023-09-08 20:58:08,138.v2_listen_for_messages.INFO  [*] Waiting for messages. To exit press CTRL+C
